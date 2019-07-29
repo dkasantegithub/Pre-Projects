@@ -1,0 +1,22 @@
+{% from 'form_helper.html' import displayField %}
+{% extends "layout.html" %}
+{% block title %} Register -- Chat App {% endblock %}
+ 
+{% block body %} 
+<h2>Create An Account</h2>
+<p>First time here? Register to start using chat App</p>
+    <form action="{{ url_for('index')}}", method="POST">
+        {{displayField(form.username, 'Username',   autocomplete='off', autofocus=true)}}
+        {{displayField(form.password, 'Password')}}
+        {{displayField(form.confirm_password, 'confirm_password')}}
+
+        <div class="form-group">  
+            {{ form.submit_btn }} 
+        </div>
+        {{ form.csrf_token }}
+    </form>
+
+    <hr>
+
+    <p>Already registered? <a href="{{url_for('login')}}">Login here</a>.</p>
+{% endblock %}
