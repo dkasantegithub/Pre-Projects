@@ -1,0 +1,8 @@
+2019-07-29 23:49:28.928 BST [1088] LOG:  database system was shut down at 2019-07-29 23:48:58 BST
+2019-07-29 23:49:29.267 BST [8928] LOG:  database system is ready to accept connections
+2019-07-29 23:54:10.193 BST [8800] ERROR:  canceling statement due to user request
+2019-07-29 23:54:10.196 BST [8928] LOG:  received fast shutdown request
+2019-07-29 23:54:10.387 BST [8928] LOG:  aborting any active transactions
+2019-07-29 23:54:10.388 BST [8928] LOG:  background worker "logical replication launcher" (PID 8800) exited with exit code 1
+2019-07-29 23:54:10.396 BST [6500] LOG:  shutting down
+2019-07-29 23:54:29.262 BST [8928] LOG:  database system is shut down

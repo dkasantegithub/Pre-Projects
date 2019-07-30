@@ -1,0 +1,10 @@
+2019-07-30 15:43:15.546 BST [6040] LOG:  database system was shut down at 2019-07-30 15:41:44 BST
+2019-07-30 15:43:19.056 BST [3740] LOG:  database system is ready to accept connections
+2019-07-30 15:52:48.038 BST [8392] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2019-07-30 15:55:20.240 BST [3740] LOG:  received fast shutdown request
+2019-07-30 15:55:20.336 BST [3740] LOG:  aborting any active transactions
+2019-07-30 15:55:20.451 BST [3204] ERROR:  canceling statement due to user request
+2019-07-30 15:55:20.458 BST [3740] LOG:  background worker "logical replication launcher" (PID 3204) exited with exit code 1
+2019-07-30 15:55:20.459 BST [5320] LOG:  shutting down
+2019-07-30 15:55:22.736 BST [3740] LOG:  database system is shut down
